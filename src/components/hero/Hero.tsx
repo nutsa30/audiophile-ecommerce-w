@@ -2,6 +2,7 @@ import styles from './Hero.module.css'
 
 import '../../App.css'
 import { useNavigate } from 'react-router-dom'
+import img1 from "../../aasets/Bitmap (1).png"
 
 
 
@@ -37,7 +38,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 
-        <img className={styles.heroImg} src="/aasets/Bitmap (1).png" alt="" />
+        <img className={styles.heroImg} src={img1} alt="" />
 
     </div>
         </div>

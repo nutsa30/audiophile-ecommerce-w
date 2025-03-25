@@ -1,6 +1,6 @@
 import styles from './AudioGear.module.css'
 import '../../App.css'
-
+import img1 from "../../aasets/audioGear.png"
 
 const AudioGear = () => {
   return (
@@ -27,7 +27,7 @@ const AudioGear = () => {
 
 
         <div >
-            <img className={styles.gearImage} src="/aasets/audioGear.png" alt="" />
+            <img className={styles.gearImage} src={img1} alt="" />
         </div>
 
 

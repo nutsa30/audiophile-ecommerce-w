@@ -1,7 +1,10 @@
 import styles from "./ZX9Speaker.module.css"
 import '../../App.css'
 import { useNavigate } from "react-router-dom"
-
+import img1 from "../../aasets/Oval.png"
+import img2 from "../../aasets/Oval Copy.png"
+import img3 from "../../aasets/Oval Copy 2.png"
+import img4 from "../../aasets/image-removebg-preview(38) (2).png"
 
 const ZX9Speaker = () => {
 
@@ -11,14 +14,14 @@ const ZX9Speaker = () => {
     <div className={`container ${styles.speaker}`}>
      
 
-      <img src="/aasets/Oval.png" alt="Oval 1" className={styles.oval1} />
-      <img src="/aasets/Oval Copy.png" alt="Oval 2" className={styles.oval2} />
-      <img src="/aasets/Oval Copy 2.png" alt="Oval 3" className={styles.oval3}/>
+      <img src={img1}alt="Oval 1" className={styles.oval1} />
+      <img src={img2} alt="Oval 2" className={styles.oval2} />
+      <img src={img3} alt="Oval 3" className={styles.oval3}/>
     
 
     
 
-       <img className={styles.img1} src="/aasets/image-removebg-preview(38) (2).png" alt=""/>
+       <img className={styles.img1} src={img4} alt=""/>
             
            
        
