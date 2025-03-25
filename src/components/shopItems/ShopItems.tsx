@@ -1,8 +1,8 @@
 import styles from './ShopItems.module.css'
 import '../../App.css'
-import img1 from "../../../assets/shared/desktop/image-category-thumbnail-headphones.png"
-import img2 from "../../../assets/shared/desktop/image-category-thumbnail-speakers.png"
-import img3 from "../../../assets/shared/desktop/image-category-thumbnail-speakers.png"
+import img1 from "../../aasets/shared/desktop/image-category-thumbnail-headphones.png"
+import img2 from "../../aasets/shared/desktop/image-category-thumbnail-speakers.png"
+import img3 from "../../aasets/shared/desktop/image-category-thumbnail-earphones.png"
 
 
 import { MdKeyboardArrowRight } from 'react-icons/md'
