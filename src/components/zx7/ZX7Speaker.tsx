@@ -1,6 +1,7 @@
 import styles from "./ZX7Speaker.module.css"
 import "../../App.css"
 import { useNavigate } from "react-router-dom"
+import img1 from "../../aasets/Bitmap (3).png"
 
 const ZX7Speaker = () => {
   const navigate=useNavigate()
@@ -15,7 +16,7 @@ const ZX7Speaker = () => {
         className="button3">SEE PRODUCT</button>
         </div>
 
-        <img src="/aasets/Bitmap (3).png" alt="" />
+        <img src={img1} alt="" />
     </div>
   )
 }

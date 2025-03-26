@@ -1,6 +1,6 @@
 import styles from "./YX1Earphones.module.css"
 import "../../App.css"
-
+import img1 from "../../aasets/Group 12.png"
 import { useNavigate } from "react-router-dom"
 
 
@@ -8,7 +8,7 @@ const YX1Earphones = () => {
   const navigate=useNavigate()
   return (
     <div className={`container ${styles.container}`}>
-        <img src="/aasets/Group 12.png" alt="" />
+        <img src={img1} alt="" />
         <div className={styles.product}>
 
 

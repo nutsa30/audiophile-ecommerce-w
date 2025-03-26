@@ -1,5 +1,8 @@
 import styles from './ShopItems.module.css'
 import '../../App.css'
+import img1 from "../../aasets/shared/desktop/image-category-thumbnail-headphones.png"
+import img2 from "../../aasets/shared/desktop/image-category-thumbnail-speakers.png"
+import img3 from "../../aasets/shared/desktop/image-category-thumbnail-earphones.png"
 
 
 import { MdKeyboardArrowRight } from 'react-icons/md'
@@ -14,7 +17,7 @@ const ShopItems = () => {
 
 
         <div className={styles.shopItems}>
-            <img   className={styles.shopImg1} src="public/shared/desktop/image-category-thumbnail-headphones.png" alt="Headphones"  />
+            <img   className={styles.shopImg1} src={img1} alt="Headphones"  />
             <h2  >HEADPHONES</h2>
             <button 
             onClick={()=>
@@ -30,7 +33,7 @@ const ShopItems = () => {
 
 
         <div className={styles.shopItems}>
-            <img className={styles.shopImg2} src="public/shared/desktop/image-category-thumbnail-speakers.png" alt="Speakers" />
+            <img className={styles.shopImg2} src={img2} alt="Speakers" />
             <h2>SPEAKERS</h2>
             <button
             onClick={()=>
@@ -44,7 +47,7 @@ const ShopItems = () => {
 
 
         <div className={styles.shopItems}>
-            <img className={styles.shopImg3} src="public/shared/desktop/image-category-thumbnail-earphones.png" alt="Earphones" />
+            <img className={styles.shopImg3} src={img3} alt="Earphones" />
             <h2>EARPHONES</h2>
             <button
             onClick={()=>
